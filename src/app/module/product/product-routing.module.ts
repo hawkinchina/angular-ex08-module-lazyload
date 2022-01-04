@@ -15,7 +15,7 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class CustomersRoutingModule {}
+export class ProductRoutingModule {}
 
 /*
 Copyright Google LLC. All Rights Reserved.
