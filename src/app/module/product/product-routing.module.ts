@@ -10,7 +10,7 @@ const routes: Routes = [
     component: ProductComponent,
   },
   //在子模块中，配置路由 （在自定义模块中，还有其他的其他的子组件。）
-  //和模块的根组件，配置成兄弟路由：
+  //和模块的根组件，配置成兄弟路由： 访问的地址为/product ，后面加上/list
   {
     path: 'list',
     component: ListComponent,
