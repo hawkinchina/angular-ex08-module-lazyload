@@ -2,11 +2,18 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { ProductComponent } from './product.component';
+import { ListComponent } from './components/list.component';
 
 const routes: Routes = [
   {
     path: '',
     component: ProductComponent,
+  },
+  //在子模块中，配置路由 （在自定义模块中，还有其他的其他的子组件。）
+  //和模块的根组件，配置成兄弟路由：
+  {
+    path: 'list',
+    component: ListComponent,
   },
 ];
 
