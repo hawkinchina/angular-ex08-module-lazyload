@@ -12,4 +12,8 @@ export class UserComponent implements OnInit {
   ngOnInit() {
   }
 
+  onClick(){
+    console.log('user button is clicked....');
+  }
+
 }
